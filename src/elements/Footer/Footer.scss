@@ -1,0 +1,14 @@
+@import "../../styles/variants.scss";
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 5rem;
+
+  & p {
+    font-family: PoppinsLight, Arial, Helvetica, sans-serif;
+    color: $white;
+    padding: 1rem;
+  }
+}

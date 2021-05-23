@@ -1,0 +1,35 @@
+@import "../../styles/variants.scss";
+
+.landing-page {
+  background-image: url("../../assets/images/waves.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100vw;
+  height: 100vh;
+
+  &-titles {
+    margin-top: 7rem;
+  }
+
+  &-title-name {
+    color: $white;
+    font-size: $fs-title-big;
+    font-family: PoppinsBlack, Arial, Helvetica, sans-serif;
+    padding-left: 3rem;
+    margin: 0;
+  }
+
+  &-subtitle {
+    color: $white;
+    padding-left: 3rem;
+    margin: 0;
+    font-size: $fs-title;
+    font-family: PoppinsRegular, Arial, Helvetica, sans-serif;
+  }
+
+  button {
+    margin: 5rem 3rem;
+  }
+}

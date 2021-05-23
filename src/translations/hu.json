@@ -1,0 +1,16 @@
+{
+  "pages": {
+    "homePage": "Főoldal",
+    "contact": "Kapcsolat",
+    "about": "Rólam"
+  },
+  "welcomeText": "Szilágyi Gábor Webfejlesztő",
+  "landingPage": {
+    "name": "Szilágyi Gábor",
+    "webDeveloper": "Webfejlesztő"
+  },
+  "aboutPage": {
+    "whatIDo": "Mit csinálok?",
+    "whoAmI": "Ki vagyok?"
+  }
+}

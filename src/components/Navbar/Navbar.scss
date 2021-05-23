@@ -1,0 +1,23 @@
+@import "../../styles/variants.scss";
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+
+  &-list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+
+    &-item {
+      color: $white;
+      padding: 1rem;
+      cursor: pointer;
+      font-family: PoppinsRegular, Arial, Helvetica, sans-serif;
+      &:hover {
+        color: $cta;
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "pages": {
+    "homePage": "Home Page",
+    "contact": "Contact",
+    "about": "About"
+  },
+  "welcomeText": "Gabor Szilagyi Web Developer",
+  "landingPage": {
+    "name": "Gabor Szilagyi",
+    "webDeveloper": "Web Developer"
+  },
+  "aboutPage": {
+    "whatIDo": "What I do?",
+    "whoAmI": "Who am I?"
+  }
+}
