@@ -1,0 +1,11 @@
+@import "../../styles/variants.scss";
+
+.hobbies-page {
+  &-list {
+    list-style-type: none;
+
+    &-item {
+      font-family: PoppinsRegular, Arial, Helvetica, sans-serif;
+    }
+  }
+}

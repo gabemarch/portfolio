@@ -5,6 +5,14 @@
   flex-direction: row;
   justify-content: flex-end;
 
+  a {
+    text-decoration: none;
+    color: $white;
+    &:hover {
+      color: $cta;
+    }
+  }
+
   &-list {
     display: flex;
     flex-direction: row;
@@ -15,9 +23,6 @@
       padding: 1rem;
       cursor: pointer;
       font-family: PoppinsRegular, Arial, Helvetica, sans-serif;
-      &:hover {
-        color: $cta;
-      }
     }
   }
 }

@@ -16,3 +16,30 @@
     color: $cta;
   }
 }
+
+.scroll-to-top {
+  background-color: $default-color;
+  width: 4rem;
+  height: 4rem;
+  cursor: pointer;
+  border-radius: 50px;
+  opacity: 0.8;
+  float: right;
+  transition: 0.3s ease-in-out;
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+  margin-top: 4%;
+  &:hover {
+    background-color: $black;
+  }
+
+  & .icon {
+    display: flex;
+    font-size: $fs-title;
+    color: $white;
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+  }
+}

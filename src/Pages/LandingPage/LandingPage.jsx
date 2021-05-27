@@ -1,10 +1,12 @@
 import { useTranslation } from "react-i18next";
 import { DefaultButton } from "../../elements/Buttons/Button";
 import { Navbar } from "../../components/Navbar/Navbar";
+import { Link } from "react-scroll";
 import "./LandingPage.scss";
 
 export const LandingPage = () => {
   const { t } = useTranslation();
+
   return (
     <div className="landing-page">
       <Navbar />
@@ -14,7 +16,16 @@ export const LandingPage = () => {
           {t("landingPage.webDeveloper")}
         </h1>
       </div>
-      <DefaultButton> Let's See</DefaultButton>
+      <Link
+        activeClass="active"
+        to="about"
+        spy={true}
+        smooth={true}
+        offset={-70}
+        duration={500}
+      >
+        <DefaultButton>Let's See</DefaultButton>
+      </Link>
     </div>
   );
 };

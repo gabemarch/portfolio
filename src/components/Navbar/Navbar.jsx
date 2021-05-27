@@ -1,24 +1,60 @@
 import "./Navbar.scss";
-import { Route, NavLink, HashRouter } from "react-router-dom";
+import { Link } from "react-scroll";
 
 export const Navbar = () => {
   return (
     <div className="navbar">
       <ul className="navbar-list">
         <li className="navbar-list-item">
-          <NavLink to="/"> Home</NavLink>
+          <Link
+            activeClass="active"
+            to="home"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            Home
+          </Link>
         </li>
         <li className="navbar-list-item">
-          <NavLink to="/about">About</NavLink>
+          <Link
+            activeClass="active"
+            to="about"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            About
+          </Link>
         </li>
         <li className="navbar-list-item">
-          <NavLink to="/experience">Experience</NavLink>
+          <Link
+            activeClass="active"
+            to="experiences"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            Experience
+          </Link>
         </li>
         <li className="navbar-list-item">
-          <NavLink to="/contact">Contact</NavLink>
+          <Link
+            activeClass="active"
+            to="contact"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            Contact
+          </Link>
         </li>
         <li className="navbar-list-item">
-          <NavLink to="/blog">Blog</NavLink>
+          <a href="https://www.geekvilag.hu">Blog</a>
         </li>
       </ul>
     </div>

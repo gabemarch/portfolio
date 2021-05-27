@@ -1,3 +1,5 @@
+import "./Hobbies.scss";
+
 export const HobbiesPage = () => {
   return (
     <div className="hobbies-page">

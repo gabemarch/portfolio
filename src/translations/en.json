@@ -11,6 +11,20 @@
   },
   "aboutPage": {
     "whatIDo": "What I do?",
-    "whoAmI": "Who am I?"
+    "whoAmI": "Who am I?",
+    "aboutDesc": "Szilágyi Gábor vagyok, több, mint 3 éve webfejlesztő. A kezdeti hobby-szintű lelkesedést hamar felváltotta az elköteleződés a szakma iránt. Főleg frontend fejlesztéssel (UI/UX) foglalkozom, de nem áll távol tőlem a keresőoptimalizálás és a marketing sem.",
+    "aboutDescParagraph": "Hiszek abban, hogy minden cég - legyen kis, közép vagy nagyvállalkozás - egyedi, és ezt a világnak is meg kell mutatni. A mai modern digitális életben a gyors és egyedi weboldal elengedhetetlen bármilyen vállalkozásról is legyen szó. Az én feladatom segíteni azoknak, akik oldalukon keresztül akarják megmutatni mivel jobbak versenytársaiknál."
+  },
+  "processesPage": {
+    "developingYourFuture": "Developing Your Future",
+    "description": "I can help you creating your online presence from scratch or enhance your existing website or application.",
+    "idea": "Idea",
+    "planning": "Planning",
+    "design": "Design",
+    "development": "Development"
+  },
+  "experiencesPage": {
+    "experiences": "Experiences",
+    "recentWork": "Recent work"
   }
 }

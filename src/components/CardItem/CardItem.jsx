@@ -1,4 +1,5 @@
 import { DefaultButton } from "../../elements/Buttons/Button";
+import "./CardItem.scss";
 
 export const CardItem = (props) => {
   return (

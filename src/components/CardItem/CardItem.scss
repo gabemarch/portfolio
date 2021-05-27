@@ -1,0 +1,17 @@
+@import "../../styles/variants.scss";
+
+.card {
+  width: 25vw;
+  height: 45vh;
+  background-color: $white;
+  color: $darkBg;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 1rem;
+  text-align: center;
+
+  button {
+    margin: 0 auto;
+  }
+}
