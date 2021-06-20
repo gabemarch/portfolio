@@ -1,4 +1,4 @@
-@import "../../styles/variants.scss";
+@import "../../styles/variables.scss";
 
 .hobbies-page {
   &-list {
@@ -7,5 +7,23 @@
     &-item {
       font-family: PoppinsRegular, Arial, Helvetica, sans-serif;
     }
+  }
+
+  &-illustration {
+    width: 30vw;
+    display: flex;
+  }
+
+  &-section-title {
+    text-align: center;
+    margin: 0;
+    padding-top: 2rem;
+  }
+
+  &-section-title_underline {
+    width: 5rem;
+    height: 0.5rem;
+    margin: 0 auto;
+    background-color: $white;
   }
 }

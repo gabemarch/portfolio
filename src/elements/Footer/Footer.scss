@@ -1,10 +1,11 @@
-@import "../../styles/variants.scss";
+@import "../../styles/variables.scss";
 
 .footer {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 5rem;
+  background-color: $darkBg;
+  margin-top: 10rem;
 
   & p {
     font-family: PoppinsLight, Arial, Helvetica, sans-serif;

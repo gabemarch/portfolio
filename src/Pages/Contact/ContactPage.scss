@@ -1,4 +1,4 @@
-@import "../../styles/variants.scss";
+@import "../../styles/variables.scss";
 
 .contact-page {
   background-color: $darkBg;
@@ -10,7 +10,7 @@
     font-size: $fs-title-huge;
     font-family: PoppinsBoldItalic, Arial, Helvetica, sans-serif;
     text-transform: uppercase;
-    margin: 5rem 2rem;
+    margin: 0 2rem;
     opacity: 1;
     max-width: 60vw;
     background: linear-gradient(

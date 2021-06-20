@@ -1,7 +1,10 @@
+import { useTranslation } from "react-i18next";
 import "./Navbar.scss";
 import { Link } from "react-scroll";
 
 export const Navbar = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="navbar">
       <ul className="navbar-list">
@@ -14,7 +17,7 @@ export const Navbar = () => {
             offset={-70}
             duration={500}
           >
-            Home
+            {t("navbar.home")}
           </Link>
         </li>
         <li className="navbar-list-item">
@@ -26,7 +29,7 @@ export const Navbar = () => {
             offset={-70}
             duration={500}
           >
-            About
+            {t("navbar.about")}
           </Link>
         </li>
         <li className="navbar-list-item">
@@ -38,7 +41,7 @@ export const Navbar = () => {
             offset={-70}
             duration={500}
           >
-            Experience
+            {t("navbar.experience")}
           </Link>
         </li>
         <li className="navbar-list-item">
@@ -50,11 +53,11 @@ export const Navbar = () => {
             offset={-70}
             duration={500}
           >
-            Contact
+            {t("navbar.contact")}
           </Link>
         </li>
         <li className="navbar-list-item">
-          <a href="https://www.geekvilag.hu">Blog</a>
+          <a href="https://www.geekvilag.hu"> {t("navbar.blog")}</a>
         </li>
       </ul>
     </div>

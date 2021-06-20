@@ -5,9 +5,17 @@
     "about": "About"
   },
   "welcomeText": "Gabor Szilagyi Web Developer",
+  "navbar": {
+    "home": "Home",
+    "about": "About",
+    "experience": "Experience",
+    "contact": "Contact",
+    "blog": "Blog"
+  },
   "landingPage": {
     "name": "Gabor Szilagyi",
-    "webDeveloper": "Web Developer"
+    "webDeveloper": "Web Developer",
+    "cta": "Let's See"
   },
   "aboutPage": {
     "whatIDo": "What I do?",
@@ -26,5 +34,13 @@
   "experiencesPage": {
     "experiences": "Experiences",
     "recentWork": "Recent work"
+  },
+  "hobbyPage": {
+    "myHobbies": "My Hobbies",
+    "guitar": "Playing on guitar",
+    "reading": "Reading books",
+    "comics": "Collecting comicbooks",
+    "videogames": "Playing videogames",
+    "blogging": "Blogging"
   }
 }

@@ -24,7 +24,7 @@ export const LandingPage = () => {
         offset={-70}
         duration={500}
       >
-        <DefaultButton>Let's See</DefaultButton>
+        <DefaultButton>{t("landingPage.cta")}</DefaultButton>
       </Link>
     </div>
   );
