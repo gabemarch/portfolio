@@ -1,6 +1,7 @@
 "use client"
 import { useState } from "react";
 import RoleToggle from "./components/UI/RoleToggle";
+import { Button } from "./components/UI/Button";
 
 export default function Home() {
   const [activeRole, setActiveRole] = useState<"creator" | "developer">("creator");
@@ -19,6 +20,10 @@ export default function Home() {
           <div className="flex justify-center mb-8">
             <RoleToggle activeRole={activeRole} onRoleChange={setActiveRole} />
           </div>
+        </div>
+        <div>
+          <Button />
+          <Button>Get In Touch</Button>
         </div>
       </section>
     </div >
