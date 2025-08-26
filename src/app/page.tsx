@@ -28,16 +28,16 @@ export default function Home() {
                             <Link href={`/${activeRole}`}>
                                 {activeRole === "creator" ? (
                                     <>
-                                        <User className="h-5 w-5" />
+                                        <User className="h-5 w-5"/>
                                         Explore Creative Work
                                     </>
                                 ) : (
                                     <>
-                                        <Code className="h-5 w-5" />
+                                        <Code className="h-5 w-5"/>
                                         View Development Projects
                                     </>
                                 )}
-                                <ArrowRight className="h-5 w-5" />
+                                <ArrowRight className="h-5 w-5"/>
                             </Link>
                         </Button>
                         <Button variant="outline" size="lg" asChild>
@@ -48,7 +48,12 @@ export default function Home() {
                     </div>
                 </div>
             </section>
-            <PreviewCard />
+            <section className="max-w-6xl mx-auto">
+                <div className="grid md:grid-cols-2 gap-8">
+                    <PreviewCard role='creator'/>
+                    <PreviewCard role='developer'/>
+                </div>
+            </section>
         </div>
     );
 }
