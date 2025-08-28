@@ -49,23 +49,23 @@ export default function CreatorPage() {
             category: "Long format video",
             tags: ["video", "sandman", "graphic novel"],
             isHighlighted: true,
-            link: ""
+            link: "https://youtu.be/exgM9se3wnc?si=YxKRUvNEewqo4xdM"
         },
         {
-            title: "Sandman graphic novel",
-            description: "A comprehensive deep dive to a legendary comic series",
-            category: "Long format video",
-            tags: ["video", "sandman", "graphic novel"],
+            title: "Enter: Full Stack ",
+            description: "My tech journey to become a Full Stack developer through storytelling",
+            category: "Medium publication",
+            tags: ["medium", "content writing", "programming", "web development"],
             isHighlighted: true,
-            link: ""
+            link: "https://medium.com/enter-full-stack"
         },
         {
             title: "Ébredés",
-            description: "An existential weird horror story.",
+            description: "An unsettling weird horror short story about the nightmare lurking beneath the surface of everyday life.",
             category: "Short story",
             tags: ["storytelling", "writing", "short stories"],
             isHighlighted: true,
-            link: ""
+            link: "https://www.wattpad.com/story/400489501-%C3%A9bred%C3%A9s"
         }
     ]
 
