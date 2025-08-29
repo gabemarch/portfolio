@@ -1,5 +1,6 @@
 import React from 'react';
 import {Code, Globe, Server, Smartphone} from "lucide-react";
+import {Button} from "@/app/components/UI/Button";
 
 export default function DeveloperPage() {
 
@@ -46,18 +47,16 @@ export default function DeveloperPage() {
             category: "Frontend",
             icon: <Code className="h-6 w-6"/>,
             techs: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Redux"]
-        }, {
+        },
+        {
             category: "Backend",
             icon: <Server className="h-6 w-6"/>,
             techs: ["Node.js", "Express", "PostgreSQL", "MongoDB", "Redis"]
-        }, {
+        },
+        {
             category: "Mobile",
             icon: <Smartphone className="h-6 w-6"/>,
             techs: ["React Native", "Expo", "iOS", "Android"]
-        }, {
-            category: "DevOps",
-            icon: <Globe className="h-6 w-6"/>,
-            techs: ["Docker", "AWS", "Vercel", "GitHub Actions", "Nginx"]
         }
     ]
 
@@ -155,17 +154,46 @@ export default function DeveloperPage() {
                 </div>
             </div>
         </section>
+
         {/*Technologies*/}
-        <section>
+        <h2 className="text-3xl font-bold mb-6">Technologies</h2>
+        <section className="grid grid-cols-3 gap-12 mb-16">
+            {technologies.map((technology, i) => (
+                <div key={technology.category} className="bg-sage rounded-xl p-6 shadow-card border">
+                    <div className="flex items-center mb-2">
+                        <div className="mr-2">{technology.icon}</div>
+                        <h3>{technology.category}</h3>
+                    </div>
+                    <div>
+                        {technology.techs.join(', ')}
+                    </div>
+                </div>
+            ))}
 
         </section>
+
+        {/*Soft skills and other skills*/}
+        <section className="flex justify-around">
+            <div>
+                <h2 className="text-3xl font-bold mb-6">Soft Skills</h2>
+            </div>
+            <div>
+                <h2 className="text-3xl font-bold mb-6">Other Skills</h2>
+            </div>
+        </section>
+
         {/*Projects*/}
         <section>
 
         </section>
+
         {/*CTA*/}
         <section>
-
+            <div className="flex flex-col items-center bg-primary text-white rounded-xl p-6 shadow-card border">
+                <h1>Ready to Build Something Great?</h1>
+                <p>I&#39;m always excited to work on new projects and collaborate with talented teams.</p>
+                <Button variant="accent">Get In Touch</Button>
+            </div>
         </section>
     </div>);
 }
